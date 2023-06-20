@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  /* color: rgb(240, 202, 250); */
+}
+
+header {
+  height: 60px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  /* padding-top: 5px; */
+  background-color: darkgrey;
+}
+.top_cont {
+  background-color: lightgray;
+  height: 500px;
+  /* margin-left: 5%; */
+}
+
+.left_cont {
+  width: 30%;
+  float: left;
+  height: 100%;
+  /* padding: 1%; */
+  /* background-color: blue; */
+  /* opacity: 50%; */
+  text-align: center;
+}
+
+img {
+  margin-top: 5rem;
+  border-radius: 5px;
+ } 
+
+.right_cont {
+
+  width: 70%;
+  float: left;
+  height: 100%;
+  /* background-color: rgb(64, 255, 0); */
+  /* opacity: 50%; */
+  font-family: sans-serif;
+}
+
+.name {
+  /* text-align: center; */
+  padding-left: 7%;
+  margin-top: 5%;
+  font-size: large;
+}
+
+.obj {
+  padding: 4% 7%;
+  border-radius: 5px;
+}
+
+#objective {
+  width: 600px;
+  height: 200px;
+  margin-left: 5%;
+}
+
+textarea {
+  width: 400px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+#skillProjects {
+  height: 300px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+#skills {
+  width: 23%;
+  float: left;
+  /* padding: 0%; */
+  margin-top: 30px;
+  background-color: darkgrey;
+  border: 5px solid lightslategray;
+  height: 200px;
+  margin-left: 5%;
+}
+
+#skills li {
+  list-style: none;
+  height: 20px;
+  background-color: rgb(141, 68, 159);
+  color: white;
+  margin-top: 10px;
+  padding-left: 10px;
+  border-radius: 5px;
+  box-shadow: 5px 5px rgb(124, 38, 145);
+}
+#skills input{
+  margin-left: 10%;
+}
+#skills h2{
+  margin-left: 5%;
+}
+#skills button{
+  margin-top: 5%;
+  margin-left: 10%;
+  /* color: lightslategrey; */
+}
+
+#projects {
+  width: 53%;
+  height: 200px;
+  margin-left: 10%;
+  float: left;
+  /* padding: 3%; */
+  margin-top: 30px;
+  border-radius: 5px;
+  border: 5px solid lightslategrey;
+  background-color: darkgrey;
+}
+#projects h2 {
+ margin-left: 5%;
+}
+#projects input{
+  margin-left: 5%;
+}
+
+#work_pers {
+  height: 500px;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+#head {
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+.label {
+  color: black;
+  margin-bottom: 5px;
+}
+
+#workshop {
+  width: 48%;
+  /* padding: 0 1%; */
+  height: 90%;
+  margin-top: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: darkgrey;
+  border: 5px solid lightslategrey;
+  border-radius: 5px;
+  float: left;
+}
+#work_pers h2 {
+  margin: 0% 5%;
+  /* margin-left: 5%; */
+  /* color: white; */
+}
+#workshop input {
+  margin: 1rem 0;
+  height: 20px;
+  width: 400px;
+  margin-left: 10%;
+}
+
+#workshop textarea {
+  height: 100px;
+  margin-left: 10%;
+}
+
+#personal {
+  width: 26%;
+  padding: 0 1%;
+  height: 90%;
+  margin-top: 1rem;
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: darkgrey;
+  border: 5px solid lightslategrey;
+  border-radius: 5px;
+  float: left;
+}
+#personal h2{
+  margin-left: 5%;
+}
+#personal input {
+  margin: 1rem 0;
+  height: 20px;
+  width: 200px;
+  margin-left: 10%;
+}
+#controls {
+  height: 50px;
+  /* background-color: rgb(255, 255, 255); */
+  background-color: lightgrey;
+}
+
+#controls input {
+  padding: 1%;
+  width: 100px;
+  border-radius: 50px;
+  background-color: darkgrey;
+}
+
+#work_pers h2 {
+  margin: 0;
+  /* color: white; */
+}

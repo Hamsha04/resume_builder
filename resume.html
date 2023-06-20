@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="styles/resume.css" />
+    <script src="scripts/resume.js"></script>
+  </head>
+  <body>
+    <header>
+      <center>
+        <h1 style="margin: 0; padding-top: 7px">Resume Builder</h1>
+      </center>
+    </header>
+    <section class="top_cont">
+      <div class="right_cont">
+        <div class="name">
+          <h1 style="margin: 0" id="fname">
+            Name: <br></h1>
+            <input type="text" id="fullname" />
+        </div>
+        <div class="obj">
+          <div class="head"><h1>Objective:</h1></div>
+          <div class="content">
+            <p id="obj">
+              <textarea id="obj2"></textarea>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="skillProjects">
+      <div id="skills">
+        <h2>Skills</h2>
+        <ul id="mySkills"></ul>
+        <input type="text" id="skill" /><br />
+        <button id="addSkills" onclick="addSkillSet()">Add Skill</button>
+      </div>
+      <div id="projects">
+        <h2>Projects</h2>
+        <h2 id="projTitleHead"><input type="text" id="projTitle" /></h2>
+        <h2><input type="text" id="projDes" /></h2>
+        <p id="projDesc"></p>
+      </div>
+    </section>
+    <section id="work_pers">
+      <div id="workshop">
+        <h2 id="head">Workshops and Internships</h2>
+        <h2 id="work_name_l" class="label"></h2>
+        <input type="text" id="work_name" placeholder="Workshop Name" /><br />
+        <h2 id="work_desc_l" class="label"></h2>
+        <textarea
+          type="text"
+          id="work_desc"
+          placeholder="Workshop Description"
+        ></textarea
+        ><br />
+        <h2 id="int_title_l" class="label"></h2>
+        <input
+          type="text"
+          id="int_title"
+          placeholder="Internship Title"
+        /><br />
+        <h2 id="int_desc_l" class="label"></h2>
+        <textarea
+          type="text"
+          id="int_desc"
+          placeholder="Internship Description"
+        ></textarea>
+      </div>
+      <div id="personal">
+        <h2 id="head">Personal Info</h2>
+        <h2 id="name_l" class="label"></h2>
+        <input type="text" id="name" placeholder="Full Name" /><br />
+        <h2 id="email_l" class="label"></h2>
+        <input type="text" id="email" placeholder="Email" />
+        <br />
+        <h2 id="phone_l" class="label"></h2>
+        <input type="text" id="phone" placeholder="Phone Number" /><br />
+        <h2 id="address_l" class="label"></h2>
+        <input type="text" id="address" placeholder="Permanent Address" />
+      </div>
+    </section>
+    <center>
+      <section id="controls">
+        <input type="button" onclick="hideControls()" value="Save" />
+        <input type="button" onclick="showControls()" value="Edit" />
+      </section>
+    </center>
+  </body>
+</html>
